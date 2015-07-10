@@ -1,0 +1,8 @@
+<! DOCTYPE html>
+    <html>
+        <body>
+            <img src="C:\Users\switch\OneDrive\Pictures\images.cmsc2" alt="baby picture"/>
+            <!--OR-->
+            <img src="https://drive.google.com/file/d/0B4hTtwTxymslVUZHMzBiZS13bW8/view?usp=sharing" alt="baby picture"/>
+        </body>
+    </html>
