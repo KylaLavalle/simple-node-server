@@ -1,0 +1,49 @@
+<! DOCTYPE html>
+    <html>
+        <head>
+            <title>Forms-2</title>
+            <h2>Order Form</h2> 
+            
+        </head>
+            <body>
+                <form>
+                    <fieldset>
+                        <legend>Costumer Details</legend>
+                            <label>Costumer name:  <input type="text" name="costumername" required></label><br>
+                            <label>Contact number: <input type="tel" name="usrtel" required></label><br>
+                            <label>E-mail address: <input type="email" name="email"><label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pizza Options</legend>
+                            <label>
+                                Flavor:
+                                    <select name="flavor">
+                                        <option value="hawaiian">Hawaiian</option>
+                                        <option value="dcheese">Double Cheese</option>
+                                        <option value="margherita">Margherita</option>
+                                        <option value="bbcb">Barbecue Bacon Cheeseburger</option>
+                                        <option value="pac">Pepperoni and Cheese</option>
+                                    </select>
+                            </label><br>
+                            Size:
+                                <label><input type="radio" name="size" value="small">Small</label>
+                                <label><input type="radio" name="size" value="medium">Medium</label>
+                                <label><input type="radio" name="size" value="large">Large</label>
+                            <br>
+                            Extra Toppings:
+                                <label><input type="checkbox" name="toppings" value="bacon">Bacon</label>
+                                <label><input type="checkbox" name="toppings" value="cheese">Cheese</label>
+                                <label><input type="checkbox" name="toppings" value="onion">Onion</label>
+                                <label><input type="checkbox" name="toppings" value="mushroom">Mushroom</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Delivery Details</legend>
+                            <label>Delivery date: <input type="date" name="ddate" required></label><br>
+                            <label>Preferred delivery time: <input type="time" name="usr_time" required></label><br>
+                            <label>Delivery address:<br><textarea rows="10" cols="50" required>   </textarea></label>
+                    </fieldset>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Sumbit</button>
+                </form>
+            </body>
+    </html>

@@ -1,0 +1,39 @@
+.float {
+    float:left;
+    margin:10px;
+}
+
+.to-clear-left{
+    clear:left;
+}
+
+#div1 {
+    width:300px; 
+    height:350px;
+    margin:5px;
+    background-color:lightblue; 
+    float:left;
+}
+
+#div2 {
+    width:300px; 
+    height:350px;
+    margin:5px;
+    background-color:#40E0D0; 
+    float:left;
+}
+
+a {
+    float:left;
+    width:100px;
+    text-decoration:none;
+    color:white;
+    background-color:#6495ED;
+    padding:10px;
+    border-right:1px solid white;
+    text-align:center;
+}
+
+a:hover {
+    background-color:gray;
+}
