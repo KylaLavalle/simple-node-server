@@ -23,6 +23,10 @@
     float:left;
 }
 
+.div {
+    clear:left;
+}
+
 a {
     float:left;
     width:100px;
@@ -38,8 +42,8 @@ a:hover {
     background-color:gray;
 }
 
-div.to-clear-left {
-    clear:"left";
+.serf {
+    clear:left;
 }
 
 .box {
@@ -47,4 +51,47 @@ div.to-clear-left {
     width:100px;
     height:100px;
     margin:5px;
+}
+
+.pos-relative {
+    background-color:#d6d7d8;
+    width:100px;
+    height:100px;
+    margin:5px;
+
+    /*To properly position an element using relative, top or bottom (choose one) 
+    and/or left or right (choose one) properties should be used.*/
+    position:relative;
+    top:20px;
+    right:20px;
+}
+
+.pos-container {
+    position:relative;
+}
+
+.pos-absolute {
+    background-color:#d6d7d8;
+    width:100px;
+    height:100px;
+    margin:5px;
+
+    /*To properly position an element using absolute, top or bottom (choose one) 
+    and/or left or right (choose one) properties should be used.*/
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+.pos-fixed {
+    background-color:#d6d7d8;
+    width:100px;
+    height:100px;
+    margin:5px;
+
+    /*To properly position an element using fixed, top or bottom (choose one) 
+    and/or left or right (choose one) properties should be used.*/
+    position:fixed;
+    top:20px;
+    right:20px;
 }
