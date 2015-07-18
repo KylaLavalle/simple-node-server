@@ -13,7 +13,7 @@ p {
 .fh2 { 
     font-size: 1.2ex; 
     line-height: 3cm; /* centimeters */
-}
+}      
 .fh3 { 
     word-spacing: 4ch; 
     line-height: 3cm; /* centimeters */
@@ -35,7 +35,6 @@ p {
 }
 
 .sup {
-    color:red;
     position: relative;
     bottom: 1ex;
 }
