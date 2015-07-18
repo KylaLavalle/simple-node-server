@@ -37,3 +37,14 @@ a {
 a:hover {
     background-color:gray;
 }
+
+div.to-clear-left {
+    clear:"left";
+}
+
+.box {
+    background-color:gray;
+    width:100px;
+    height:100px;
+    margin:5px;
+}
