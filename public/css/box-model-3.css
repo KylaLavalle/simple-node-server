@@ -8,6 +8,28 @@ body {
     background-color:#cbe5ff;
 }
 
+.rect {
+    width:50px;
+    height:100px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px dashed #84befe;
+    position:fixed;
+    top:200px;
+    right:-5px;
+}
+
+.rect a {
+    color:#84befe;
+    font-size:15;
+    text-decoration:none;
+    font-size:23px;
+    text-align:justify;
+    word-wrap:break-word;
+}
+
 .header {
     width:900px;
 }
@@ -26,9 +48,102 @@ body {
     width:700px;
     height:400px;
     margin-left:45px;
+    margin-bottom:-145px;
     background-color:#84befe;
     position:relative;
     top:-150px;
     left:118px;
 }
 
+.nav {
+    width:900px;
+    margin-left:40px;
+}
+
+.nav a:link {
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    width:139.2px;
+    padding:10px;
+    margin:0px;
+    clear:left;
+    border:1px solid white;
+    background-color:#84befe;
+    display:inline-block;
+}
+
+.nav a:visited {
+    color:white;
+    text-decoration:none;
+    background-color:#84befe;
+}
+
+.nav a:hover {
+    color:#cbe5ff;
+    text-decoration:none;
+    background-color:white;
+}
+
+.nav a:activate {
+    color:#cbe5ff;
+    text-decoration:none;
+    background-color:white;
+}
+
+.mid {
+    width:823px;
+    height:500px;
+    margin-left:40px;
+    margin-right:40px;
+    background-color:white;
+}
+
+.last {
+    width:823px;
+    height:350px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:40px;
+    background-color:white;
+}
+
+.left {
+    width:400px;
+    height:340px;
+    margin:4px;
+    border: 2px dotted #cbe5ff;
+    float:left
+}
+
+.left-head {
+    width:394px;
+    height:50px;
+    margin:4px;
+    background-color:#84befe;
+}
+
+.right {
+    width:400px;
+    height:340px;
+    margin:3px;
+    border: 2px dotted #cbe5ff;
+    float:left;
+}
+
+.right-head {
+    width:394px;
+    height:50px;
+    margin:4px;
+    background-color:#84befe;
+}
+
+.footer {
+    width:820px;
+    height:100px;
+    color:#84befe;
+    text-align:right;
+    margin-top:20px;
+    margin-left:50px;
+    margin-right:40px;
+}
