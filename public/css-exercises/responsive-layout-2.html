@@ -69,12 +69,19 @@ background-color: #f2dde1;
 color: #000000;
 }
 
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .footer {
 background-color: #8d3441;
 color: #ffffff;
 text-align: center;
 font-size: 12px;
 padding: 15px;
+display:block;
 }
 
 /* For mobile phones: */
@@ -144,7 +151,7 @@ width: 100%;
 </div>
 
 <div class="row">
-<div class="column vertical">
+<div class="column vertical col-m-3 col-2">
 <ul>
 <li>Button 1</li>
 <li>Button 2</li>
@@ -157,7 +164,7 @@ width: 100%;
 </ul>
 </div>
 
-<div class="column">
+<div class="column col-m-9 col-5">
 <h1>Welcome</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -176,7 +183,7 @@ width: 100%;
 </div>
 
 <div class="row footer">
-<div class="column">
+<div class="column horizontal">
 <h3>&#169; 2015. All rights reserved.</h3>
 </div>
 </div>
