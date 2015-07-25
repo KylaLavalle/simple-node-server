@@ -1,7 +1,3 @@
-body {
-    font-family:"Arial";
-}
-
 * {
     box-sizing:border-box;
 }
@@ -27,9 +23,10 @@ body {
 
 .rect a {
     color:#84befe;
+    font-size:15;
     text-decoration:none;
     font-size:23px;
-    text-align:center;
+    text-align:justify;
     word-wrap:break-word;
 }
 
