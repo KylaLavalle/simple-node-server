@@ -1,3 +1,7 @@
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
 * {
     box-sizing:border-box;
 }
@@ -5,7 +9,7 @@
 .whole {
     width:900px;
     margin:auto;
-    background-color:#cbe5ff;
+	background:linear-gradient(to top, #84befe, white);
 }
 
 .rect {
@@ -16,6 +20,7 @@
     padding-left:10px;
     padding-right:10px;
     border:2px dashed #84befe;
+    border-radius:10px;
     position:fixed;
     top:200px;
     right:-5px;
@@ -23,10 +28,9 @@
 
 .rect a {
     color:#84befe;
-    font-size:15;
     text-decoration:none;
     font-size:23px;
-    text-align:justify;
+    text-align:center;
     word-wrap:break-word;
 }
 
@@ -39,16 +43,24 @@
     height:200px;
     margin-left:40px;
     background-color:white;
+    box-shadow:5px 5px 10px gray;
     position:relative;
     top:80px;
     z-index:1;
 }
 
 .preview {
+	color:white;
+	font-size:90px;
+	text-align:left;
+	text-shadow:5px 5px 10px gray;
+	word-wrap:word-break;
     width:700px;
     height:400px;
     margin-left:45px;
     margin-bottom:-145px;
+    padding-top:100px;
+    padding-left:120px;
     background-color:#84befe;
     position:relative;
     top:-150px;
@@ -58,6 +70,7 @@
 .nav {
     width:900px;
     margin-left:40px;
+    margin-top:10px;
 }
 
 .nav a:link {
@@ -69,6 +82,7 @@
     margin:0px;
     clear:left;
     border:1px solid white;
+    border-radius:0 15px 0 0;
     background-color:#84befe;
     display:inline-block;
 }
@@ -96,6 +110,8 @@
     height:500px;
     margin-left:40px;
     margin-right:40px;
+    margin-top:10px;
+    margin-bottom:10px;
     background-color:white;
 }
 
@@ -117,10 +133,16 @@
 }
 
 .left-head {
+	color:white;
+	text-align:center;
+	font-size:30px;
     width:394px;
     height:50px;
     margin:4px;
-    background-color:#84befe;
+   	padding-top:5px;
+   	padding-bottom:5px;
+    border-radius:0 0 20px 20px;
+    background:linear-gradient(to top, #84befe, lightblue);
 }
 
 .right {
@@ -132,18 +154,25 @@
 }
 
 .right-head {
+		color:white;
+	text-align:center;
+	font-size:30px;
     width:394px;
     height:50px;
     margin:4px;
-    background-color:#84befe;
+    padding-top:5px;
+   	padding-bottom:5px;
+    border-radius:0 0 20px 20px;
+    background:linear-gradient(to top, #84befe, lightblue);
 }
 
 .footer {
     width:820px;
     height:100px;
-    color:#84befe;
+    color:white;
     text-align:right;
-    margin-top:20px;
-    margin-left:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:40px;
     margin-right:40px;
 }
