@@ -51,3 +51,9 @@ document.getElementById("demo16").innerHTML = arr[0];
 var fname = document.getElementById("fname");
 var lname = document.getElementById("lname");
 document.getElementById("demo17").innerHTML = fname.value + "<br>" + lname.value; 
+
+var d = new Date();
+document.getElementById("demo18").innerHTML = d;
+
+var d = new Date();
+document.getElementById("demo19").innerHTML = d.toDateString();
