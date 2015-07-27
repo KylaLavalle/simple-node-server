@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Working With Numbers</title>
+        </head>
+            <body>
+                <p>Click the button to call the function</p>
+                <form>
+                    <input type="button" onclick="sayHello()" value="Click Me!">
+                </form>
+                <p>Image and Style</p>
+                <img src="/images/pic_bulboff.gif" onclick="changeImage()" alt="Lightbulb" id="lbulb" />
+                <p id="sample1">Click the light bulb to turn it on!</p>
+                <p>Example with Parameters</p>
+                <p>Click the button to call the function</p>
+                <form>
+                    <input type="button" onclick="outputDetails('Senyora', 18)" value="View Senyora Details">
+                </form>
+                <p>Example with Return Value</p>
+                <p>Click the button to call the function</p>
+                <form>
+                    <input type="button" onclick="outputName('Anna', 'Manalastas')" value="Concatenate!">
+                </form>
+                <p>Convert Fahr to Cel</p>
+                <form>
+                    <label>Fahrenheit</label>
+                        <input type="text" name="fahrenheit" id="fahrenheit">
+                    <label>Celsius</label>
+                        <input type="text" name="celsius" id="celsius">
+                        <input type="button" onclick="getCelsius()" value="Convert">
+                </form>
+                <p>Hexadecimal Values</p>
+                <input type="button" onclick="convertToHex()" value="Convert"/>
+                <p id="sample2"></p>
+                <p>Infinity Example</p>
+                <input type="button" onclick="computeInf()" value="Compute" />
+                <p id="sample3"></p>
+                <p>NaN Example</p>
+                <input type="button" onclick="computeNaN()" value="Compute" />
+                <p id="sample4"></p>
+                <p>Num to Str</p>
+                <input type="button" onclick="numToStr(14, 3)" value="Convert Number" />
+                <p id="sample5"></p>
+                <p>Str to Num</p>
+                <input type="button" onclick="strToNum('15','10.333')" value="Convert" />
+                <p id="sample6"></p>
+                <p>Here are some Math constants.</p>
+                <input type="button" onclick="outputCons()" value="Print Constants"/>
+                <p id="sample7"></p>
+                <p>String Method Example</p>
+                <input type="button" onclick="getMax()" value="Find Max"/>
+                <p id="sample8"></p>
+                <p>Randomize</p>
+                <input id="rand" type="button" onclick="getRand()" value="Click Me!"/>
+                <p id="sample9"></p>
+                
+                <script src="/script/working-with-numbers.js"></script>
+            </body>
+    </html>
